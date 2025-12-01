@@ -1,11 +1,140 @@
-.box {
-    max-width: 500px;
-    height: 200px;
-    background-color: red;
-}
-@media (max-width: 900px) {
-    .box {
-        width: 250px;
-        background-color: black;
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
+@font-face {
+  font-family: myFont;
+  src: url(fonts/Barlow-Bold.ttf);
+  font-weight: bold;
+}
+  body {
+    display: flex;
+    justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: white;
+
+    }
+    .mainbox {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.box2 img {
+    width: 540;
+    height: 480;
+}
+.tkeyboard {
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+    height: 312px;
+    justify-content: space-evenly;
+}
+h2 {
+    display: flex;
+    font-family: myFont;
+font-weight: 900;
+font-size: 56px;
+line-height: 56px;
+letter-spacing: 0px;
+text-transform: uppercase;
+
+    margin: 10px;
+}
+h3 {
+    font-family: myFont;
+font-weight: 700;
+font-size: 16px;
+line-height: 26px;
+text-transform: uppercase;
+color: #7B8BAD;
+
+}
+.p1 {
+    font-family: myFont;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+letter-spacing: 0px;
+
+}
+.box2div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.box2div button {
+    width: 175;
+    height: 58;
+    border-radius: 8px;
+    background-color: #F16718;
+    color: white;
+    font-family: myFont;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+
+
+}
+.box3 {
+    display: flex;
+    gap: 20px;
+}
+
+.box4 {
+    display: flex;
+    flex-direction: row;    
+
+}
+.group1 {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    width: 255;
+    height: 323;
+    background-color: white;
+    border-radius: 20px;
+    margin: 5px;
+}
+.group1 img {
+    display: flex;
+    margin: 10px;
+}
+h1 {
+    display: flex;
+    font-family: myFont;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+p {
+    display: flex;
+    font-family: myFont;
+    color: #7B8BAD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    margin: 10px;
+
 }

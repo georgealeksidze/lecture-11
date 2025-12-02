@@ -9,13 +9,21 @@
   font-weight: bold;
 }
   body {
-    display: flex;
-    justify-content: center;
+        display: flex;
+        justify-content: center;
         align-items: center;
         height: 100vh;
         background-color: white;
+        flex-direction: row;
+
 
     }
+.mainboxmother {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+}
     .mainbox {
         display: flex;
         flex-direction: column;
@@ -27,97 +35,123 @@
     align-items: center;
     justify-content: space-between;
 }
+            .box1 button {
+                width: 175;
+                height: 58;
+                border-radius: 8px;
+                background-color: #E8EFF2;
+                color: black;
+                font-family: myFont;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 26px;
+                text-transform: uppercase; 
+                
+            }
 .box2 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-.box2 img {
-    width: 540;
-    height: 480;
-}
-.tkeyboard {
-    display: flex;
-    flex-direction: column;
-    width: 445px;
-    height: 312px;
-    justify-content: space-evenly;
-}
-h2 {
-    display: flex;
-    font-family: myFont;
-font-weight: 900;
-font-size: 56px;
-line-height: 56px;
-letter-spacing: 0px;
-text-transform: uppercase;
+            .box2div {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 20px;
+            }
+                    .box2 img {
+                        width: 540;
+                        height: 480;
+                    }
+                    .box2div button {
+                            width: 175;
+                            height: 58;
+                            border-radius: 8px;
+                            background-color: #F16718;
+                            color: white;
+                            font-family: myFont;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 26px;
+                            text-transform: uppercase;
+                        }
+                            .tkeyboard {
+                                display: flex;
+                                flex-direction: column;
+                                width: 445px;
+                                height: 312px;
+                                justify-content: space-evenly;
+                            }
 
-    margin: 10px;
-}
-h3 {
-    font-family: myFont;
-font-weight: 700;
-font-size: 16px;
-line-height: 26px;
-text-transform: uppercase;
-color: #7B8BAD;
-
-}
-.p1 {
-    font-family: myFont;
-font-weight: 500;
-font-size: 18px;
-line-height: 26px;
-letter-spacing: 0px;
-
-}
-.box2div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px;
-}
-.box2div button {
-    width: 175;
-    height: 58;
-    border-radius: 8px;
-    background-color: #F16718;
-    color: white;
-    font-family: myFont;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 26px;
-    text-transform: uppercase;
-
-
-}
 .box3 {
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
 }
+            .box3div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 20px;
+                width: 255;
+                height: 265;
+            }
 
 .box4 {
     display: flex;
     flex-direction: row;    
 
 }
-.group1 {
+            .group1 {
+                display: flex;
+                align-items: start;
+                flex-direction: column;
+                width: 255;
+                height: 323;
+                background-color: white;
+                border-radius: 20px;
+                margin: 5px;
+            }
+                    .group1 img {
+                        display: flex;
+                        margin: 10px;
+                    }
+                            p {
+                                display: flex;
+                                font-family: myFont;
+                                color: #7B8BAD;
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 26px;
+                                letter-spacing: 0px;
+                                margin: 10px;
+                            }
+.bottom {
     display: flex;
-    align-items: start;
-    flex-direction: column;
-    width: 255;
-    height: 323;
-    background-color: white;
-    border-radius: 20px;
-    margin: 5px;
+    align-items: center;
+    justify-content: center;
 }
-.group1 img {
-    display: flex;
-    margin: 10px;
+.typemaster {
+    font-family: myfont;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #7B8BAD;
 }
-h1 {
+.reserved {
+    font-family: myfont;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 26px;
+    gap: 5px;
+
+
+}
+ h1 {
     display: flex;
     font-family: myFont;
     font-weight: 900;
@@ -127,7 +161,35 @@ h1 {
     text-transform: uppercase;
     margin: 10px;
 }
-p {
+h2 {
+    display: flex;
+    font-family: myFont;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+h3 {
+    font-family: myFont;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #7B8BAD;
+
+}
+h4 {
+    font-family: myfont;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+ 
+}
+h5 {
     display: flex;
     font-family: myFont;
     color: #7B8BAD;
@@ -136,5 +198,15 @@ p {
     line-height: 26px;
     letter-spacing: 0px;
     margin: 10px;
-
 }
+h6 { 
+    display: flex;
+    font-family: myFont;
+    color: #7B8BAD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    margin: 10px;
+}
+

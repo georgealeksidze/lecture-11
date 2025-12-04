@@ -263,8 +263,19 @@ h6 {
     top: 196px;
     right: -120px;
 }
+@media (min-width: 750px){
+   .box3imgtablet {
+    display: none;
+   }
+    .box3imgmobile {
+    display: none;
+   }
 
-@media (max-width: 1642px) {
+
+}
+
+
+@media (max-width: 1450px) {
     .grayleft {
     display: none;
 }
@@ -535,6 +546,9 @@ h6 {
     display: none;
 }
 .box3img {
+    display: none;
+}
+.box3imgmobile {
     display: none;
 }
 }
@@ -811,4 +825,5 @@ h6 {
 .box3imgtablet {
     display: none;
 }
+
 }

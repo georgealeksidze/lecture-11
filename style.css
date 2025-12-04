@@ -277,6 +277,7 @@ h6 {
     display: none;
 }
 }
+
 @media (max-width: 750px) {
 
     body {
@@ -543,3 +544,277 @@ h6 {
 }
 
 
+
+
+
+@media (max-width: 350px) {
+
+    body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: white;
+    max-width: 340px;
+    gap: 20px;
+    scroll-behavior: smooth;
+
+    
+}
+.mainboxmother {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+
+.mainbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+}
+
+
+.box1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 340px;
+}
+
+
+.box1 button {
+    max-width: 175px;
+    max-height: 58px;
+    border-radius: 8px;
+    background-color: #E8EFF2;
+    color: black;
+    font-family: myFont;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    border: none;
+}
+
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 700px;
+    gap: 40px;
+}
+
+
+.box2div {
+    display: flex;
+    align-content: center;
+    gap: 20px;
+    
+}
+
+
+.box2 img {
+    width: 372px;
+    height: 331px;
+    border-radius: 12px;
+    
+}
+
+
+.box2div button {
+    width: 175px;
+    height: 58px;
+    border-radius: 8px;
+    background-color: #F16718;
+    color: white;
+    font-family: myFont;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    border: none;
+    
+}
+
+
+.tkeyboard {
+    display: flex;
+    flex-direction: column;
+    max-width: 372px;
+    max-height: 331px;
+    justify-content: space-evenly;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 100px;
+}
+.box3img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.box3div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: myfont;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+    max-width: 331px;
+}
+
+
+.box4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 340px;
+
+}
+.box4group1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+}
+.box4group2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    
+}
+
+
+.group1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 255px;
+    height: 323px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+
+.group1 img {
+    width: 48px;
+    margin: 15px;
+}
+
+
+p {
+    font-family: myFont;
+    color: #7B8BAD;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   width: 340px;
+}
+
+.typemaster {
+    font-family: myFont;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+
+.reserved {
+    font-family: myFont;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+
+h1 {
+    font-family: myFont;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-family: myFont;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 56px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+h3 {
+    font-family: myFont;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #7B8BAD;
+}
+
+h4 {
+    font-family: myFont;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+h5 {
+    font-family: myFont;
+    color: #7B8BAD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 10px;
+} 
+h6 {
+    font-family: myFont;
+    color: #7B8BAD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 10px;
+}
+
+.grayleft {
+    display: none;
+}
+
+.grayright {
+    display: none;
+}
+.box3img {
+    display: none;
+}
+.box3imgtablet {
+    display: none;
+}
+}

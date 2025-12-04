@@ -78,7 +78,7 @@ body {
 }
 
 
-.box2 img {
+.blackkeyboard {
     width: 540px;
     height: 480px;
     border-radius: 12px;
@@ -129,6 +129,7 @@ body {
     width: 255px;
     height: 265px;
 }
+
 
 .box4 {
     display: flex;
@@ -261,6 +262,11 @@ h6 {
     height: 240px;
     top: 196px;
     right: -120px;
+}
+@media (min-width: 750px){
+   .box3imgtablet {
+    display: none;
+   }
 }
 @media (max-width: 1310px) {
     .grayleft {
@@ -529,6 +535,9 @@ h6 {
 }
 
 .grayright {
+    display: none;
+}
+.box3img {
     display: none;
 }
 }
